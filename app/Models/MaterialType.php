@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class MaterialType extends Model
+{
+    use HasFactory;
+<<<<<<< HEAD
+    protected $fillabel = ['name',];
+
+    public function material_type()
+    {
+        return $this->belongsTo(MaterialType::class, 'type_id','id');
+    }
+    
+=======
+    protected $fillabel = ['name'];
+>>>>>>> cb34fb6 (Last)
+}
+
